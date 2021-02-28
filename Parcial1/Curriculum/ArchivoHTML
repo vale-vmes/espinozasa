@@ -4,9 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
+    <title>Curriculum Vitae</title>   
+    <link rel="stylesheet" href="ArchivoCSS">
 </head>
-<body>
+<body class="fondobody">
+<div>
+    <body background="fondo.jpg">
+    <h1>Curriculum Vitae</h1>
+    <img src="moon.png" align="right" width="240" height="210">    
     
+    <ul type=”disc”>
+        <li>Valeria Margarita Espinoza Sánchez</li>
+        <li>Estudiante de Ing. En Sistemas</li>  
+        <li>867123456</li>  
+        <li>valemes2019@hotmail.com</li>  
+    </ul>
+    <br>Me considero una persona creativa,
+    trabajadora, responsable, inteligente, con
+    ganas de aprender y adaptarme a cualquier
+    entorno para adquirir conocimientos y
+    crecer de forma personal y profesional </br>
+    
+    <h2>Historial Académico</h2>
+
+    <table>
+    <tr>
+    <td bgcolor="9c9c9c" ><strong>Nivel</strong></td>
+    <td bgcolor="9c9c9c"><strong>Escuela</strong></td>
+    <td bgcolor="9c9c9c"><strong>Periodo</strong></td>
+    </tr>
+
+    <tr>
+    <td>Primaria</td>
+    <td>Esc. Primaria Niño Artillero</td>
+    <td>2006-2012</td>
+    </tr>
+
+    <tr>
+    <td>Secundaria</td>
+    <td>Esc. Secundaria Gral. #6. Prof. Rubén Miranda Villalba</td>
+    <td>2012-2015</td>
+    </tr>
+
+    <tr>
+    <td>Media Superior</td>
+    <td>Centro de Bachillerato Tecnológico y de Servicios #137</td>
+    <td>2015-2018</td>
+    </tr>
+
+    <tr>
+    <td>Superior</td>
+    <td>Tecnológico Nacional de México Campus Nuevo Laredo</td>
+    <td>6to Semestre Enero-Julio</td>
+    </tr>
+    </table>
+    
+    <h2>Habilidades</h2>
+    <ul type=”disc”>
+        <li>Trabajo en equipo</li>
+        <li>Capacidad de comunicación y liderazgo</li>
+        <li>Adaptación al cambio</li>
+        <li>Responsabilidad</li>
+        <li>Atención al cliente</li>
+        <li>Compromiso con las actividades diarias</li>
+    </ul>
+      
+    <ul type="disc">
+    <h2>Conocimientos Generales</h2>
+    <li>Manejo de Microsoft Office</li>
+    <li>Manejo de redes sociales</li>
+    <li>Conocimiento de lenguaje C#</li>
+    <li>Manejo de SQL Server</li>
+    <li>Manejo intermedio de NET Framework en el desarrollo de aplicaciones en C#</li>
+    </ul>
+</div>
+
 </body>
 </html>

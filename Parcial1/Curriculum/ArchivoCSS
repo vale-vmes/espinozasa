@@ -1,0 +1,65 @@
+.fondobody{
+    background-COLOR: #6264b3;
+    color: #ffffff;
+}
+
+h1, h2, h3, h5{
+    text-align: center;
+}
+
+p {
+    line-height: 150%;
+  }
+
+div {
+    border-top-width: 10px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+    width: 1000px;
+    height: 1000px;
+  }
+
+.centrado{
+    align-content: center;
+}
+
+table {
+    width: 70%;
+ }
+ th, td {
+    width: 25%;
+ }
+ h1 { font-size: xx-large }
+ h2 {font-size: x-large}
+
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  
+
+*{
+    font-family:'Lucida Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: large
+ }
+
+ svg{
+    align-content: center;
+ }
+
+ .alineacionth{
+     text-align: center;
+ }
