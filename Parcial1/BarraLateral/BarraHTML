@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barra Latera</title>   
     <link rel="stylesheet" href="BarraCSS">
+    
 </head>
 <body>
     <h1>Menú Lateral Responsivo</h1>
     <div id="CajaBarra" class="CajaBarra">
-       
+        <body background="planta.gif">   
         <li> <a href="#">Opción 1</a></li>
         <li> <a href="#">Opción 2</a></li>
         <li> <a href="#">Opción 3</a></li>
