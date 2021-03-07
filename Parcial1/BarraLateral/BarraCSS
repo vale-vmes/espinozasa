@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(191, 255, 131);
+}
+
+h1{
+    text-align: center;
+}
+/*Pantallas para celular ---- BASE LISTA*/
+
+ @media screen and (min-width: 10px) and (max-width: 350px)
+{
+    
+    #CajaContenido{
+        font-size: 150%;
+        box-sizing: border-box;
+        padding:0;
+        width: 90%;
+        max-width: 1500px;
+        margin: auto;
+    }
+    .CajaBarra{
+        border-radius: 15px;
+        padding:0;
+        background-color: rgb(66, 66, 66);
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .CajaBarra li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+    
+    .CajaBarra li{
+        display: block;
+        text-align: center;
+    }
+    
+    .CajaBarra li a:hover{
+        border-radius: 15px;
+        background-color:green;
+    }
+ }
+
+ /*Pantallas para tablet --- BASE LISTA*/
+ @media screen and (max-width: 767px) and (min-width:351px)
+{
+   
+    #CajaContenido{
+        font-size: 130%;
+        padding:0;
+        width: 90%;
+        max-width: 1500px;
+        margin: auto;
+    }
+    .CajaBarra{
+        border-radius: 15px;
+        padding:0;
+        background-color: rgb(66,66,66);
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    .CajaBarra li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+    
+    .CajaBarra li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .CajaBarra li a:hover{
+        border-radius: 15px;
+        background-color:green;
+    }
+   
+}
+
+/*Pantallas para computadoras*/
+@media screen and (min-width:768px)
+{
+    
+    #CajaContenido{
+        font-size: 130%;
+        padding:0;
+        width: 80%;
+        max-width: 1500px;
+        margin: auto;
+        float: auto;
+        padding-left: 50px;
+    }
+    .CajaBarra{
+        border-radius: 15px;
+        position: relative;
+        float: left;
+        background-color: rgb(66,66,66);
+        width: 80%;
+        max-width: 200px;
+        margin: auto;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .CajaBarra li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+    
+    .CajaBarra li{
+        display: block;
+        text-align: center;
+    }
+    
+    .CajaBarra li a:hover{
+        border-radius: 15px;
+        background-color:green;
+    }
+}

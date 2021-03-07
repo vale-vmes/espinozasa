@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra Latera</title>   
+    <link rel="stylesheet" href="BarraCSS">
+</head>
+<body>
+    <h1>Menú Lateral Responsivo</h1>
+    <div id="CajaBarra" class="CajaBarra">
+       
+        <li> <a href="#">Opción 1</a></li>
+        <li> <a href="#">Opción 2</a></li>
+        <li> <a href="#">Opción 3</a></li>
+        <li> <a href="#">Opción 4</a></li>
+        <li> <a href="#">Opción 5</a></li>
+    </div>
+    <div id="CajaContenido" class="CajaContenido">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusamus cupiditate provident modi quia, ipsam saepe eos dolore fuga reiciendis cum voluptatem dolorem laudantium labore aspernatur sunt, placeat mollitia minus?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus neque, laudantium autem sint exercitationem earum ut ducimus non qui modi dolorum labore placeat totam iste saepe similique nostrum voluptatem accusantium?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur reprehenderit sit! Quam dolorum nisi natus neque. In quibusdam suscipit facere quasi veritatis, accusamus reiciendis nam optio odit numquam commodi.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quas modi non eum accusantium quidem ab possimus error suscipit velit et deserunt quae, accusamus eveniet rerum perferendis voluptates labore minima!
+        </p>
+    </div>
+
+
+</body>
+</html>
