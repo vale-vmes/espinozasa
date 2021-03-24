@@ -4,17 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Formulario Responsivo</title>
     <link rel="stylesheet" href="FormularioCSS">
 </head>
 <body>
     <div>
+        <body background="kawaii-cute-pastel-candy-dulces-postres-patron-fisuras-diferentes-tipos_71374-12.jpg">
         <div class="container">
             <form>
+                <h1>Dulcería Arcoíris</h1>
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Correo electrónico:</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="exampleFormControlInput1">Nombre del producto:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" ">
                 </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">ID del producto:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" ">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Marca:</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Marca 1</option>
+                      <option>Marca 2</option>
+                      <option>Marca 3</option>
+                      <option>Marca 4</option>
+                      <option>Marca 5</option>
+                    </select>
+                  </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Descripción del producto:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-check" >
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">¿Pedido completo?</label>
+                </div>
+                <p></p>
+                <button type="button" class="btn btn-outline-success btn-lg">Añadir producto</button>
+
             </form>
         </div>
     </div>
