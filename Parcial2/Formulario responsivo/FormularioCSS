@@ -1,6 +1,12 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    background-color: rgb(191, 255, 131);
-
+body{
+    font-size: 20px;
+    font-weight:700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgb(139, 139, 139);
+}
+h1{
+    font-weight:800;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(139, 139, 139);
 }
