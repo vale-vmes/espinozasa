@@ -6,7 +6,7 @@ function validar()
     //
         if(usuario == "18100168" && password == "168")
         {
-            swal("ACCESO CONSEDIDO", "¡Bienvido!", "success");
+            swal("ACCESO CONCEDIDO", "¡Bienvido!", "success");
         }
         else
         {
