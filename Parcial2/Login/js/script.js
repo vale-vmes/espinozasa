@@ -4,12 +4,12 @@ function validar()
     var usuario = $("#User").val();
     var password = $("#Password").val();
     //
-        if(usuario == "user" && password == "2021")
+        if(usuario == "l18100168" && password == "l168")
         {
-            swal("Validación", "Bienvenido", "success");
+            swal("ACCESO CONSEDIDO", "¡Bienvido!", "success");
         }
         else
         {
-            swal("Validación", "Usuario y/o contraseña invalidos", "error");
+            swal("ACCESO DENEGADO", "Usuario y/o contraseña invalidos", "error");
         }
 }
