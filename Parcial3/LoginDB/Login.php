@@ -1,7 +1,3 @@
-<?php
-    require 'Conexion.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +17,7 @@
 	<script src="js/script.js"></script>
 	
 </head>
-
+ 
 <body>
 
 	<body class="fondo" background="css/3.jpg">
@@ -37,26 +33,27 @@
                         <h5><a href="SignUp.php"> o crear una cuenta </a></h5>
                     </label>
                     <div class="col-md-12">
-                    <form role="form">
+
+                    <!--FORMULARIO LOGIN-->
+                    <form role="form" action="iniciar_sesion.php" method="POST">
                         <div class="form-group">
                             <label for="exampleInputEmail1">
                                 Usuario: <br> 
 							</label>
 
-                            <input type="text" name="exampleInputEmail1" id="User" placeholder="Usuario">
+                            <input type="text" name="usuario" id="User" placeholder="Usuario">
                         </div>
                         <div class="form-group">
                             
                             <label for="exampleInputPassword1">
                                 Contraseña: <br> 
                             </label>
-                            <input type="password" name="exampleInputPassword1" id="Password" placeholder="Contraseña">
+                            <input type="password" name="password" id="Password" placeholder="Contraseña">
                         </div>
-                        
-                        
-						<input type="button" onclick="validar()" name="" value="Ingresar" href="#" style="color: rgb(250, 225, 142);background-color: rgb(54, 50, 43);">
-
+						<input type="submit" value="Ingresar" href="#" style="color: rgb(250, 225, 142);background-color: rgb(54, 50, 43);">
                     </form>
+                    <!---->
+                    
                 </div> 
                 <div class="col-md-4">
                 
