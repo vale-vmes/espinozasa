@@ -8,8 +8,9 @@
 </head>
 <body>
     <?php
+    session_start();
     if (isset($_SESSION['usuario'])) {
-        echo 'Bienvenido '.$_SESSION['usuario'];
+        echo 'Bienvenid@ '.$_SESSION['usuario'];
     }
     ?>
     <br>

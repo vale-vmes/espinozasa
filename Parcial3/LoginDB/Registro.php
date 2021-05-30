@@ -8,12 +8,12 @@
     $cadenaInsertar = "INSERT INTO USUARIOS (user, CONTRASENA) VALUES('$usuario', '$password')";
     $ejecutarInsertar = $conection->prepare($cadenaInsertar);
     $ejecutarInsertar->execute();
-    $conection=null;
-
+    
     if ($ejecutarInsertar) {
         echo '<script>
         window.location = "Login.php";
         alert("Usuario insertado con exito!");
         </script>';;
     }
+    $conection=null;
 ?>

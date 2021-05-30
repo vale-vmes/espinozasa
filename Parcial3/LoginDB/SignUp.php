@@ -50,19 +50,16 @@
                             <label for="exampleInputEmail1">
                               Usuario:<br>
 							</label>
-
-                            <input type="text" name="usuario" id="User" placeholder="Usuario">
+                                <input type="text" name="usuario" id="User" placeholder="Usuario">
                         </div>
 
                         <div class="form-group">
-                            
                             <label for="exampleInputPassword1">
                                 Contraseña: <br> 
                             </label>
-                            <input type="password" name="password" id="Password" placeholder="Contraseña">
+                                <input type="password" name="password" id="Password" placeholder="Contraseña">
                         </div>
-                        
-						<input type="submit" value="Ingresar" href="#" style="color: rgb(250, 225, 142);background-color: rgb(54, 50, 43);">
+						    <input type="submit" value="Ingresar" href="#" style="color: rgb(250, 225, 142);background-color: rgb(54, 50, 43);">
                     </form>
                     <!---->
                 </div> 

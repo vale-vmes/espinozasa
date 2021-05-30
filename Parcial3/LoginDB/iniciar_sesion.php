@@ -10,7 +10,7 @@
      $ejecutarSelect = $conection->prepare($cadenaSelect);
      $ejecutarSelect->execute();
  
-     if ($ejecutarSelect->rowCount() > 0) 
+     if ($ejecutarSelect->rowCount() > 0)
      {
          $_SESSION['usuario'] = $usuario;
          header("Location: bienvenido.php");
