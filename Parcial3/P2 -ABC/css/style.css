@@ -1,0 +1,15 @@
+body{
+    font-size: 10px;
+    font-weight:700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgb(139, 139, 139);
+}
+h1{
+    font-weight:800;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(139, 139, 139);
+}
+h3{
+    text-align: center;
+}
