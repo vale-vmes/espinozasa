@@ -16,7 +16,6 @@ $('document').ready(function ()
                          { name: "MARCA", type: "text",title: "Marca", width: 40},
                          { name: "PRECIO",     type: "text",title: "Precio",      width: 30},
                          { name: "DESCRIPCION",     type: "text",title: "Descripción",  width: 80},
-                         { name: "FECHA_INGRESO",     type: "text",title: "Fecha de ingreso",      width: 40},
                          { type: "control"}],
                 });
             }
