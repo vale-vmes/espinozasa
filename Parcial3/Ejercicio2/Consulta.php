@@ -7,7 +7,7 @@ try
     $consultaSelect="SELECT * FROM PRODUCTO";
     $consulta=$conection->prepare($consultaSelect);
     $consulta->execute();
-    echo "Id_Producto  |  Nombre  |  Categoría  |  Marca  |  Precio  |  Descripcion  |  Fecha_Ingreso <br>";
+    echo "Id_Producto  |  Nombre  |  Categoría  |  Marca  |  Precio  |  Descripcion  <br>";
     echo "--------------------------------------------------------------------------------------------------- <br>";
     while($registro = $consulta->fetch())
     {
@@ -16,8 +16,8 @@ try
             $registro['CATEGORIA'].' - '.
             $registro['MARCA'].' - '.
             $registro['PRECIO'].' - '.
-            $registro['DESCRIPCION'].' - '.
-            $registro['FECHA_INGRESO'].'<br>';
+            $registro['DESCRIPCION'].' <br> ';
+        
     }
     $consulta->closeCursor();
 }
