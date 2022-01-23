@@ -37,7 +37,8 @@
                       Precio:  <input type="text" name="precio" value="<?php echo $resultado['PRECIO']?>" class="form-control mb-3">
                       Despcripción:  <input type="text" name="descripcion" value="<?php echo $resultado['DESCRIPCION']?>" class="form-control mb-3">
                         
-                        <input type="submit" class="btn btn-primary"  value="Updates"><br>
+                      <input type="submit" class="btn btn-primary"  value="Updates"><br>
+                      <a href="Formulario.php">Regresar</a>  
         </form>
     </div>
 </body>

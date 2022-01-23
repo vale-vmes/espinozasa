@@ -14,7 +14,7 @@ $('document').ready(function ()
                          { name: "NOMBRE",    type: "text",title: "Nombre",     width: 100},
                          { name: "CATEGORIA", type: "text",title: "Categoría", width: 40},
                          { name: "MARCA", type: "text",title: "Marca", width: 40},
-                         { name: "PRECIO",     type: "text",title: "Precio",      width: 30},
+                        // { name: "PRECIO",     type: "text",title: "Precio",      width: 30},
                          { name: "DESCRIPCION",     type: "text",title: "Descripción",  width: 80},
                          { type: "control"}],
                 });

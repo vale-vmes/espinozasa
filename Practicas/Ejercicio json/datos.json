@@ -1,0 +1,37 @@
+{
+    "nombre":"Vale",
+    "apellido":"Espinoza",
+    "lenguajes":["C++","C#","Python"],
+    "edad":30,
+    "experiencia":[
+        {
+            "empresa":"Microsoft",
+            "anios":5
+        },
+        {
+            "empresa":"Google",
+            "anios":3
+        }
+    ],
+    "direccion":
+        {
+            "calle":"manzana",
+            "numero":123,
+            "colonia":"frutas",
+            "pago_luz":[
+                {
+                    "id":0,
+                    "fecha":"02-22"
+                },
+                {
+                    "id":1,
+                    "fecha":"03-22"
+                },
+                {
+                    "id":2,
+                    "fecha":"04-22"
+                }
+
+            ]
+        }
+}
